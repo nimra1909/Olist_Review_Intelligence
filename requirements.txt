@@ -1,0 +1,6 @@
+streamlit
+sqlalchemy
+huggingface_hub
+chromadb
+sentence-transformers
+pandas
