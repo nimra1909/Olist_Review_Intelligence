@@ -1,6 +1,8 @@
 streamlit
 sqlalchemy
-huggingface_hub
+gdown
 chromadb
 sentence-transformers
-pandas
+huggingface_hub
+transformers
+torch
