@@ -11,7 +11,7 @@ The goal is simple: allow business users who don't know SQL to ask questions in 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The **Ask-Your-Data** assistant brings together three major analytical layers:
 
@@ -28,7 +28,7 @@ These components are integrated into an interactive **Streamlit application** th
 
 ---
 
-## 🎯 Mission
+## Mission
 
 Build an assistant that allows anyone to ask business questions in plain English and receive trustworthy answers based on:
 
@@ -42,7 +42,7 @@ Instead of manually writing SQL or searching through thousands of reviews, users
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 | Member       | Primary Role              | Contribution                                                                               |
 | ------------ | ------------------------- | ------------------------------------------------------------------------------------------ |
@@ -53,7 +53,7 @@ Instead of manually writing SQL or searching through thousands of reviews, users
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 The project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
@@ -76,7 +76,7 @@ Kaggle - Brazilian E-Commerce Public Dataset by Olist
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system consists of four main layers:
 
@@ -116,7 +116,7 @@ The system consists of four main layers:
 
 ---
 
-## ⚙️ Technology Stack
+## Technology Stack
 
 | Layer                 | Technology                              | Purpose                                      |
 | --------------------- | --------------------------------------- | -------------------------------------------- |
@@ -133,9 +133,9 @@ The system consists of four main layers:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 💬 Natural-Language Business Questions
+### Natural-Language Business Questions
 
 Users can ask questions without knowing SQL.
 
@@ -155,7 +155,7 @@ What are customers complaining about most?
 
 ---
 
-### 🧮 Automatic SQL Generation
+### Automatic SQL Generation
 
 The LLM converts natural-language questions into SQL queries.
 
@@ -177,7 +177,7 @@ This allows non-technical users to interact with structured business data conver
 
 ---
 
-### 💭 Sentiment Analysis
+### Sentiment Analysis
 
 Customer reviews are analyzed to identify sentiment and understand customer satisfaction.
 
@@ -192,7 +192,7 @@ The review intelligence layer can help identify:
 
 ---
 
-### 🔎 Semantic Search
+### Semantic Search
 
 Portuguese customer reviews are converted into multilingual embeddings using:
 
@@ -223,7 +223,7 @@ Review evidence for analysis
 
 ---
 
-### 🌎 Multilingual Review Intelligence
+### Multilingual Review Intelligence
 
 Because the original reviews are written in Portuguese, the project uses a multilingual embedding model to support semantic retrieval across languages.
 
@@ -231,7 +231,7 @@ This allows English-language questions to be connected with relevant Portuguese 
 
 ---
 
-### 📊 Combined Analytics
+### Combined Analytics
 
 The assistant combines structured SQL results with unstructured review evidence.
 
@@ -257,7 +257,7 @@ This makes the system useful for questions where **numbers alone are not enough*
 
 ---
 
-## 🧠 Example Use Case
+## Example Use Case
 
 A manager asks:
 
@@ -277,7 +277,7 @@ This connects **what happened in the data** with **what customers actually said*
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 olist-capstone/
@@ -310,7 +310,7 @@ olist-capstone/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -368,7 +368,7 @@ The Streamlit application should then open in your browser.
 
 ---
 
-## 🔐 Security & GitHub Practices
+## Security & GitHub Practices
 
 The following files should generally be excluded from version control:
 
@@ -410,7 +410,7 @@ Thumbs.db
 
 ---
 
-## 📈 Project Workflow
+## Project Workflow
 
 ```text
 Olist Dataset
@@ -456,7 +456,7 @@ SQLite          Sentiment Analysis
 
 ---
 
-## 👩‍💻 Team Contributions
+## Team Contributions
 
 ### Kashmala
 
@@ -491,7 +491,7 @@ SQLite          Sentiment Analysis
 
 ---
 
-## 🧪 Example Questions
+## Example Questions
 
 The assistant can be used to explore questions such as:
 
@@ -513,7 +513,7 @@ Which product categories have improved customer satisfaction?
 
 ---
 
-## 🌟 Why This Project?
+## Why This Project?
 
 Traditional business dashboards usually answer predefined questions.
 
@@ -538,7 +538,7 @@ Together, these technologies create a practical example of **AI-powered business
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 Potential future enhancements include:
 
@@ -557,7 +557,7 @@ Potential future enhancements include:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 
@@ -587,7 +587,7 @@ DEALINGS IN THE SOFTWARE.
 
 ---
 
-## 👥 Team 2 — Capstone Project
+## Capstone Project
 
 **Ask-Your-Data: Olist Analytics & Review Intelligence**
 
