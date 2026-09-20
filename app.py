@@ -182,10 +182,10 @@ def ask_question(question, engine, schema, client, include_reviews=True):
 
 st.set_page_config(page_title="Olist Ask-Your-Data Assistant", page_icon="🛍️", layout="wide")
 
-st.title("🛍️ Ask-Your-Data: Olist Analytics Assistant")
+st.title("Ask-Your-Data: Olist Analytics Assistant")
 st.caption(
     "Ask a plain-English question about orders, deliveries, revenue, or customer "
-    "reviews — the assistant turns it into SQL, runs it, and pulls supporting "
+    "reviews, the assistant turns it into SQL, runs it, and pulls supporting "
     "review evidence when relevant."
 )
 
